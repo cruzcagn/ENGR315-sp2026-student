@@ -8,8 +8,15 @@ Note: this problem does not require the "compounding interest" formula from the 
 
 """
 
-### Your code here ###
+### Dukes Unleashed Assignment (G.Cruz-Candido ENGR 315) ###
 
-in_state_gift = 0
+# Cost of Attendance of at JMU for 2023-2024
+in_state_cost = 30792
+out_state_cost = 47882
 
-out_state_gift = 0
+# Amount of money alumns would have to spend to cover one year of tuition
+# _state_cost / _state_gift = 5% #
+in_state_gift = in_state_cost / 0.05
+out_state_gift = out_state_cost / 0.05
+
+in_state_cost, out_state_cost

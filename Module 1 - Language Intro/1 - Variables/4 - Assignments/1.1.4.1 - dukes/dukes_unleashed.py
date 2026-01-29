@@ -10,7 +10,7 @@ Note: this problem does not require the "compounding interest" formula from the 
 
 ### Dukes Unleashed Assignment (G.Cruz-Candido ENGR 315) ###
 
-# Cost of Attendance of at JMU for 2023-2024
+# Cost of Attendance of at JMU for 2022-2023
 in_state_cost = 30792
 out_state_cost = 47882
 
@@ -19,4 +19,5 @@ out_state_cost = 47882
 in_state_gift = in_state_cost / 0.05
 out_state_gift = out_state_cost / 0.05
 
-in_state_cost, out_state_cost
+print("In-state gift needed:", in_state_gift)
+print("Out-state gift needed:", out_state_gift)

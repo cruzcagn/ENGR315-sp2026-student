@@ -19,10 +19,12 @@ def dot_product(a,b):
     """
 
     ### YOUR CODE HERE ###
-
+    total = 0
+    for val_a, val_b in zip(a,b):
+        total += val_a * val_b
 
     ### CHANGE THIS RETURN VALUE. IT IS HERE SO THE CODE DOES NOT ERROR
-    return None
+    return total
 
 """
 Step 1: Generate two "vectors" of equal length but full of random values

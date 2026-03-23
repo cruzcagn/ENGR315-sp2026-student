@@ -12,7 +12,7 @@ Note: this problem does not require the "compounding interest" formula from the 
 
 """
 
-### Your code here ###
+### Dukes Unleashed Assignment (G.Cruz-Candido ENGR 315) ###
 
 in_state_gift = 0
 
